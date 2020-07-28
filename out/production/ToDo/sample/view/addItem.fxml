@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemController">
+   <children>
+      <AnchorPane layoutY="-4.0" prefHeight="116.0" prefWidth="1200.0" style="-fx-background-color: #536DFE;">
+         <children>
+            <Label alignment="CENTER" layoutX="533.0" layoutY="37.0" prefHeight="48.0" prefWidth="133.0" text="TODO" textFill="WHITE">
+               <font>
+                  <Font name="Google Sans Medium" size="36.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <Label fx:id="noTaskLabel" alignment="CENTER" layoutX="410.0" layoutY="333.0" prefHeight="43.0" prefWidth="380.0" text="No Task for Today, yet!">
+         <font>
+            <Font name="Google Sans Regular" size="20.0" />
+         </font></Label>
+      <ImageView fx:id="addIconButton" fitHeight="74.0" fitWidth="84.0" layoutX="563.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-add-new-100.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

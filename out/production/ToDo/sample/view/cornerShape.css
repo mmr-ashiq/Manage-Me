@@ -1,0 +1,105 @@
+#loginPassword {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    /*-fx-border-color: red;*/
+}
+
+#loginUsername {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    /*-fx-border-color: #EC407A;*/
+}
+
+#saveTaskButton {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    /*-fx-border-color: #EC407A;*/
+}
+
+#taskField {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    /*-fx-border-color: #EC407A;*/
+}
+
+#loginButton {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    /*-fx-border-color: #EC407A;*/
+}
+
+#updateTaskButton {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #EC407A;
+}
+
+#signUpButton {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    /*-fx-border-color: #EC407A;*/
+    -fx-font-smoothing-type: inherit;
+}
+
+
+#signUpPageLoginButton {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    -fx-border-color: #EC407A;
+    /*-fx-font-smoothing-type: inherit;*/
+}
+
+#listDescriptionField {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    /*-fx-border-color: #EC407A;*/
+}
+
+/*#listTaskField {*/
+/*    -fx-background-color: #dbb1b1, #fff0f0;*/
+/*    -fx-background-radius: 15;*/
+/*    -fx-border-radius: 15;*/
+/*    !*-fx-border-color: #EC407A;*!*/
+/*    -fx-font-smoothing-type: inherit;*/
+/*}*/
+
+#listSaveTaskButton {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    /*-fx-border-color: #EC407A;*/
+    -fx-font-smoothing-type: inherit;
+}
+
+#toDosButton {
+    -fx-background-color: #dbb1b1, #fff0f0;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    /*-fx-border-color: #EC407A;*/
+    -fx-font-smoothing-type: inherit;
+    -fx-background-color: #EC407A;
+}
+
+#anchorPaneLogin{
+    -fx-background-color:   #ffffff;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+    /*-fx-border-color: #EC407A;*/
+    /*-fx-font-smoothing-type: inherit;*/
+}
+
+#signUpCSS {
+    -fx-background-color:   #ffffff;
+    -fx-background-radius: 15;
+    -fx-border-radius: 15;
+
+}

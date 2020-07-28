@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AddItemFormController">
+    <children>
+      <AnchorPane prefHeight="93.0" prefWidth="1200.0" style="-fx-background-color: #536DFE;">
+         <children>
+            <JFXButton fx:id="toDosButton" layoutX="1000.0" layoutY="28.0" prefHeight="40.0" prefWidth="155.0" stylesheets="@cornerShape.css" text="My Tasks" textFill="WHITE" visible="false">
+               <font>
+                  <Font name="Google Sans Regular" size="16.0" />
+               </font>
+            </JFXButton>
+            <Label alignment="CENTER" layoutX="53.0" layoutY="23.0" prefHeight="48.0" prefWidth="126.0" text="TODO" textFill="WHITE">
+               <font>
+                  <Font name="Google Sans Medium" size="36.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="14.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/titlebar.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label fx:id="successLabel" layoutX="791.0" layoutY="128.0" prefHeight="31.0" prefWidth="342.0" text="Task added successfully!" visible="false">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <JFXTextArea fx:id="descriptionField" layoutX="329.0" layoutY="284.0" prefHeight="174.0" prefWidth="592.0" promptText="Description">
+         <font>
+            <Font name="Google Sans Regular" size="24.0" />
+         </font>
+      </JFXTextArea>
+      <JFXTextField fx:id="taskField" layoutX="329.0" layoutY="194.0" prefHeight="70.0" prefWidth="592.0" promptText="Task">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXTextField>
+      <JFXButton fx:id="saveTaskButton" layoutX="463.0" layoutY="499.0" prefHeight="58.0" prefWidth="342.0" style="-fx-background-color: #536DFE;" stylesheets="@cornerShape.css" text="Save Task" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </JFXButton>
+    </children>
+</AnchorPane>

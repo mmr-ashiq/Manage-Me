@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" style="-fx-background-color: #536DFE;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoginController">
+   <children>
+      <AnchorPane layoutY="93.0" prefHeight="607.0" prefWidth="1200.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <AnchorPane fx:id="anchorPaneLogin" layoutX="118.0" layoutY="91.0" prefHeight="426.0" prefWidth="976.0" stylesheets="@cornerShape.css">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <ImageView fitHeight="219.0" fitWidth="252.0" layoutX="60.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/undraw_project_completed_w0oq.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="loginButton" layoutX="544.0" layoutY="193.0" prefHeight="39.0" prefWidth="139.0" style="-fx-background-color: #536DFE;" stylesheets="@cornerShape.css" text="Login">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <Hyperlink fx:id="loginSignUpLink" layoutX="682.0" layoutY="249.0" text="Sign Up">
+                     <font>
+                        <Font name="Google Sans Regular" size="16.0" />
+                     </font>
+                  </Hyperlink>
+               </children>
+            </AnchorPane>
+            <Label alignment="CENTER" layoutX="193.0" layoutY="23.0" prefHeight="53.0" prefWidth="875.0" stylesheets="@cornerShape.css" text="Sign in to TODO">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="932.0" layoutY="221.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icon_password.png" />
+               </image>
+            </ImageView>
+            <JFXTextField fx:id="loginUsername" focusColor="#536dfe" layoutX="568.0" layoutY="137.0" prefHeight="53.0" prefWidth="399.0" promptText="Username" unFocusColor="GREY">
+               <font>
+                  <Font name="Google Sans Regular" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="loginPassword" focusColor="#536dfe" layoutX="568.0" layoutY="214.0" prefHeight="53.0" prefWidth="399.0" promptText="Password" unFocusColor="GREY">
+               <font>
+                  <Font name="Google Sans Regular" size="18.0" />
+               </font>
+            </JFXPasswordField>
+            <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="932.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/icon_user.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="619.0" layoutY="340.0" prefHeight="30.0" prefWidth="186.0" text="Don't have an Account?">
+               <font>
+                  <Font name="Google Sans Regular" size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label alignment="CENTER" layoutX="59.0" layoutY="25.0" prefHeight="48.0" prefWidth="106.0" text="TODO" textFill="WHITE">
+         <font>
+            <Font name="Google Sans Medium" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="22.0" fitWidth="51.0" layoutX="1.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="39.0" fitWidth="39.0" layoutX="20.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/titlebar.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
